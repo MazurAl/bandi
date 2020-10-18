@@ -1,5 +1,5 @@
-@import "_variables";
 @import "_header";
+@import "_footer";
 
 * {
   box-sizing: border-box;
@@ -9,20 +9,10 @@ body {
   max-width: 100%;
   overflow-x: hidden;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.carousel {
+  margin-top: -70px;
+  z-index: 1;
+}
 
 // font-family: 'Open Sans', sans-serif;
 // font-family: 'Pacifico', cursive;
