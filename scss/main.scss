@@ -138,12 +138,13 @@ body {
 }
 .features {
   width: 100%;
-  height: 460px;
   background: #f4f7f9;
   h2 {
     margin: 75px 0 100px;
   }
-  .col {
+  .features-info {
+    max-width: 75%;
+    margin: auto;
     span {
       position: absolute;
       border: 1px solid #0eb493;
@@ -166,6 +167,7 @@ body {
         font-size: 13px;
         line-height: 21px;
         color: #062033;
+        margin-bottom: 135px;
       }
     }
   }
@@ -194,11 +196,33 @@ body {
     right: -60px;
   }
 }
-.row p {
+.row .topwork {
   text-align: center;
   font-weight: 600;
   font-size: 18px;
   color: #062033;
+  margin-bottom: 45px;
+}
+.work-links {
+  .nav-pills {
+    margin-bottom: 37px;
+    .nav-item {
+      margin-left: 10px;
+      .nav-link {
+        font-weight: 600;
+        font-size: 14px;
+        color: #062033;
+        &:hover {
+          background: #0eb493;
+          color: #fff;
+        }
+      }
+      .nav-link.active {
+        background: #0eb493;
+        color: #fff;
+      }
+    }
+  }
 }
 
 // font-family: 'Open Sans', sans-serif;
